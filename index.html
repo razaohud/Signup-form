@@ -78,21 +78,55 @@
   <div class="form-box">
     <h2>CREATE AN ACCOUNT</h2>
     <form>
-      <input type="text" placeholder="Your Name" required>
-      <input type="email" placeholder="Your Email" required>
-      <input type="password" placeholder="Password" required>
-      <input type="password" placeholder="Repeat your password" required>
+      <label for="Your name"></label>
+      <input type="text" id="Your name" name="Your name" placeholder="Your name" required><br>
 
+      <label for="Your Email"></label>
+      <input type="text" id="Your Email" name="Email" placeholder="Email" required><br>
+
+      <label for="password"></label>
+      <input type="text" id="password" name="password" placeholder="password" required>
+
+      <label for="Repeat Your password"></label>
+      <input type="text" id="Repeat Your password" name="Repeat Your password" placeholder="Repeat Your password "
+        required>
+        <div class="form-box=1"> 
+      <h3>What is your country</h3>
+      <input type="radio" name="country" value="US" placeholder="US" checked="checked">US
+      <input type="radio" name="country" value="Pakistan" placeholder="Pakistan">Pakistan
+      <input type="radio" name="country" value="India" placeholder="India">India
+      <input type="radio" name="country" value="UK" placeholder="UK">UK
+      </div>
+      
+      <p>what is your city</p>
+      <select name="devices">
+        <option value="England">England</option>
+        <option value="Mumbai">Mumbai</option>
+        <option value="Karachi">Karachi</option>
+      </select>
+      
+      <label for="username">Departure date:</label>
+      <input type="date" name="depart" />
       <div class="terms">
-        <input type="checkbox" required> I agree all statements in 
+        <input type="checkbox" required> I agree all statements in
         <a href="#">Terms of service</a>
       </div>
 
       <button type="submit" class="btn">SUBMIT</button>
 
-      
-      
+
+
+
+
+
+
+
+
+
     </form>
+
+
+
   </div>
 </body>
 </html>
